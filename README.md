@@ -73,6 +73,25 @@ Open the local URL shown in the terminal to view the application.
 - Add payment integration for paid courses
 - Deploy the application
 
+## Screenshots
+
+### Home Page
+![Home Page](screenshots/homepage.png)
+
+### Courses Page
+![Courses Page](screenshots/courses.png)
+
+### Login Page
+![Login Page](screenshots/login.png)
+
+### Register Page
+![Cart](screenshots/register.png)
+
+### FAQ Page
+![Checkout](screenshots/faq.png)
+
+
+
 ## Author
 
 Togi Charan Deep
