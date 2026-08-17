@@ -1,43 +1,80 @@
-# Peak Learn — Online Learning Platform
+# PeakLearn
 
-A course marketplace UI with browsing, enrollment, testimonials, and FAQ,
-rebuilt in React with reusable components after starting life as static
-HTML/CSS/JS.
+PeakLearn is an online learning platform where users can browse courses, view course details, and enroll in courses.
+
+The project was originally built using HTML, CSS, and JavaScript and later rebuilt in React using reusable components.
 
 ## Features
 
-- **Course catalog** with search and level filtering.
-- **Course detail pages** with a syllabus, instructor, and enroll action.
-- **Login & registration** forms backed by `localStorage`.
-- **Testimonials** and an **interactive FAQ accordion** on the homepage.
-- Fully responsive layouts, with a warm indigo/amber visual identity.
+- Browse available courses
+- Search courses
+- Filter courses by level
+- View course details
+- View course syllabus and instructor information
+- Course enrollment
+- Login and registration
+- Testimonials section
+- Interactive FAQ section
+- Responsive design for desktop and mobile
 
-## Tech stack
+## Tech Stack
 
-React 18 · Vite · JavaScript · Tailwind CSS · React Router
+- React
+- JavaScript
+- HTML
+- CSS
+- Tailwind CSS
+- React Router
+- Vite
+- localStorage
 
-## Project structure
+## Getting Started
 
-```
-peak-learn/
-└─ src/
-   ├─ components/   # Navbar, Footer, CourseCard, FaqAccordion
-   ├─ context/       # AuthContext (localStorage-backed)
-   ├─ data/          # courses.js — courses, testimonials, FAQ content
-   └─ pages/         # Home, Courses, CourseDetail, Faq, Login, Register
-```
+### Prerequisites
 
-## Getting started
+Make sure you have the following installed:
 
-```bash
-npm install
-npm run dev      # http://localhost:5175
-```
+- Node.js
+- npm
+- Git
 
-## Notes
+### Installation
 
-- This project intentionally mirrors a common resume narrative — "started as
-  static HTML/CSS/JS, migrated to React with reusable components" — reflected
-  in the componentized `CourseCard` and `FaqAccordion` used across pages.
-- Auth is client-side only; swap in a real API when you're ready to persist
-  users and enrollments server-side.
+Clone the repository:
+
+    git clone https://github.com/TOGICHARANDEEP/PeakLearn.git
+
+Go to the project folder:
+
+    cd PeakLearn
+
+Install the dependencies:
+
+    npm install
+
+Start the development server:
+
+    npm run dev
+
+Open the local URL shown in the terminal to view the application.
+
+## Future Improvements
+
+- Add a Node.js and Express.js backend
+- Add MongoDB for users and courses
+- Implement proper server-side authentication
+- Add a student dashboard
+- Store course enrollments in a database
+- Add course progress tracking
+- Add video lessons
+- Add an instructor dashboard
+- Add an admin dashboard
+- Add certificates for completed courses
+- Add payment integration for paid courses
+- Deploy the application
+
+## Author
+
+Togi Charan Deep
+
+GitHub: https://github.com/TOGICHARANDEEP
